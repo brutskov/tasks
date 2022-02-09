@@ -18,15 +18,15 @@ public class MainClass {
         print(lion);
     }
 
-    private static void print(Lion lion) {
+    private void print(Lion lion) {
         System.out.println(lion.getType());
     }
 
-    private static void print(Cat cat) {
+    private void print(Cat cat) {
         System.out.println(cat.getType());
     }
 
-    private static Integer print(Cat cat) {
+    private Integer print(Cat cat) {
         System.out.println(cat.getType());
         return 0;
     }
